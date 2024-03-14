@@ -1,0 +1,14 @@
+type: a
+attribute:
+  class: 'btn btn-link btn-floating btn-lg text-dark m-1'
+  href: rs:href
+  target: _blank
+  role: button
+innerHTML:
+  -
+    type: widget
+    data:
+      plugin: icons/bootstrap_v1_8_1
+      method: icon
+      data:
+        icon: rs:icon           

@@ -1,0 +1,45 @@
+readme:
+  name: Buto-Plugin-FollowUs
+  description: |
+    Add follow-us-links. Just set icon and href for any page.
+  item:
+    -
+      name: Settings
+    -
+      name: Usage
+    -
+      name: Pages
+      item: {  }
+    -
+      name: Widgets
+      item:
+        -
+          name: widget_section
+          description: |
+            Add widget in a bootstrap container. Use icons from plugin icons/bootstrap_v1_8_1 and href to any page.
+            ````
+            type: div
+            attribute:
+              class: container
+            innerHTML:
+              -
+                type: widget
+                data:
+                  plugin: follow/us
+                  method: section
+                  data:
+                    links:
+                      -
+                        icon: facebook
+                        href: (Link to my facebook)
+                      -
+                        icon: twitter
+                        href: (Link to my twitter)
+            ````
+    -
+      name: Event
+      item: {  }
+    -
+      name: Construct
+    -
+      name: Methods

@@ -1,0 +1,5 @@
+-
+  type: section
+  attribute:
+    class: mb-4 text-center
+  innerHTML: rs:links
