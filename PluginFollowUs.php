@@ -10,7 +10,7 @@ class PluginFollowUs{
     $links = array();
     foreach($data->get('data/links') as $k => $v){
       $link = wfDocument::getElementFromFolder(__DIR__, __FUNCTION__.'_link');
-      $link->setByTag($v);
+      $link->setByTag($v, 'rs', true);
       $links[] = $link->get();
     }
     $element->setByTag(array('links' => $links));

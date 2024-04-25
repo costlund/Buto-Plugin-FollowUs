@@ -4,6 +4,7 @@ attribute:
   href: rs:href
   target: _blank
   role: button
+  onclick: rs:onclick
 innerHTML:
   -
     type: widget

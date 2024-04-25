@@ -35,6 +35,7 @@ readme:
                       -
                         icon: twitter
                         href: (Link to my twitter)
+                        onclick: console.log('optional param...')
             ````
     -
       name: Event

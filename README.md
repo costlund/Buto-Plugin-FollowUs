@@ -47,7 +47,8 @@ innerHTML:
             href: (Link to my facebook)
           -
             icon: twitter
-            href: (Link to my twitter)</code></pre>
+            href: (Link to my twitter)
+            onclick: console.log('optional param...')</code></pre>
 
 <a name="key_4"></a>
 
